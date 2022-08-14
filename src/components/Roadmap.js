@@ -1,41 +1,78 @@
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-bootstrap/Carousel";
 
 function DarkVariantExample() {
   return (
-    <Carousel variant="dark">
+    <Carousel className="justify-content-center" variant="dark">
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="favicon.ico"
+          style={{ width: "20rem" }}
+          className="d-block w-5"
+          src="process.svg"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5>Eylül 2022</h5>
+          <p>Platformun Alpha Sürümü</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=eee"
+          style={{ width: "20rem" }}
+          className="d-block w-5"
+          src="process.svg"
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5>Ekim 2022</h5>
+          <p>Platformun Beta Sürümü</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=e5e5e5"
+          style={{ width: "20rem" }}
+          className="d-block w-5"
+          src="process.svg"
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h5>Kasım 2022</h5>
+          <p>Mentor - Mentee Programı</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          style={{ width: "20rem" }}
+          className="d-block w-5"
+          src="process.svg"
+          alt="Fourth slide"
+        />
+        <Carousel.Caption>
+          <h5>Ocak 2023</h5>
+          <p>Yapay Zeka ile Özgeçmiş İnceleme</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          style={{ width: "20rem" }}
+          className="d-block w-5"
+          src="process.svg"
+          alt="Fifth slide"
+        />
+        <Carousel.Caption>
+          <h5>Şubat 2023</h5>
+          <p>İş arayanlarla işe verenlerin eşleştirilmesi</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          style={{ width: "20rem" }}
+          className="d-block w-5"
+          src="process.svg"
+          alt="Sixth slide"
+        />
+        <Carousel.Caption>
+          <h5>Mayıs 2023</h5>
+          <p>Metaverse ile Mülakat Görüşmesi</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

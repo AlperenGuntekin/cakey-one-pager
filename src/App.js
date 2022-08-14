@@ -1,6 +1,6 @@
 import "./App.css";
 import "./components/Roadmap.css"
-import travel_01 from "./assets/travel-01.jpg";
+import background from "./assets/background.png";
 import profileData from "./assets/profile-data.svg";
 import yesno from "./assets/yes-no.svg";
 import solving from "./assets/solving.svg";
@@ -11,19 +11,25 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 import DarkVariantExample from "./components/Roadmap";
+import Card from "./components/Card";
 
 
 function App() {
   const navbarLinks = [
-    { url: "#", title: "Home" },
-    { url: "#", title: "Trips" },
-    { url: "#", title: "Rewards" },
+    { url: "#", title: "Problem" },
+    { url: "#", title: "Çözüm" },
+    { url: "#", title: "Yapay Zeka" },
+    { url: "#", title: "Farklıyız" },
+    { url: "#", title: "Fiyat" },
+    { url: "#", title: "Roadmap" },
+    { url: "#", title: "Ekip" },
   ];
 
   return (
+    
     <div className="App">
       <Navbar navbarLinks={navbarLinks} />
-      <Hero imageSrc={travel_01} />
+      <Hero imageSrc={background} />
       <Slider
         imageSrc={profileData}    
         title={"Cakey size kariyerin anahtarını sunuyor!"}
@@ -66,21 +72,13 @@ function App() {
         }
         flipped={true}
       />
-      <Slider
-        imageSrc={travel_01}
-        title={"Roadmap"}
-        subtitle={"İş arayanların bekleyerek zaman kaybetmesini istemiyoruz. Bu yüzden YAPAY ZEKA İLE ÖZGEÇMİŞ İNCELEME özelliğimiz de platformda yakın zamanda kullanılır halde olacak."}
-
-      />
-        <Slider
-        imageSrc={profileData}    
-        title={"Ekip"}
-        subtitle={
-          "İş arama sürecinin ne kadar sancılı bir dönem olduğunun farkındayız. Bu yüzden fiyatlarımızı herkesin yararlanabileceği şekilde tutuyoruz."
-        }
-        flipped={true}
-      />
       <DarkVariantExample />
+      <div className="row justify-content-center">
+      <h1 className="row justify-content-center" >Ekibimiz</h1>
+      <div className="col-9 d-sm-flex p-1">
+      <Card />
+      </div>
+      </div>
     </div>
   );
 }

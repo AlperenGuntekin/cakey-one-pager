@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
-import { logDOM } from "@testing-library/react";
 
 const Navbar = ({ navbarLinks }) => {
   // Determines if the "menu icon" was clicked or not. Note that this icon is only visible when the window width is small.
