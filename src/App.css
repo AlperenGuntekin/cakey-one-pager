@@ -5,3 +5,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.navbar-toggler {
+  background-color: white;
+}
+
+.navbar-inner {
+  background:transparent;
+}

@@ -1,5 +1,6 @@
 {
   "name": "react-landing-page-v1",
+  "homepage": "https://cakey.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

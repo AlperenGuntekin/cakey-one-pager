@@ -24,7 +24,7 @@ const Slider = ({ imageSrc, title, subtitle, flipped }) => {
         <>
           <div className="slider__content">
             <h1 className="slider__title">{title}</h1>
-            <p>{subtitle}</p>
+            <p>{subtitle}</p>  
           </div>
           <img src={imageSrc} alt="Travel" className="slider__image" />
         </>
