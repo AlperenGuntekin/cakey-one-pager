@@ -5,8 +5,13 @@ function GroupExample() {
   return (
 <div
 className="text-center">
-<CardGroup>
-      <Card>
+<CardGroup
+className="p-2"
+>
+      <Card
+      className="p-3"
+      style={{ width: '18rem' }}
+      >
         <Card.Img variant="top" src="alperen.png" />
         <Card.Body>
           <Card.Title>Alperen Güntekin</Card.Title>
@@ -25,7 +30,10 @@ className="text-center">
           </a>
         </Card.Footer>
       </Card>
-      <Card>
+      <Card
+      className="p-3"
+      style={{ width: '18rem' }}
+      >
         <Card.Img variant="top" src="busra.png" />
         <Card.Body>
           <Card.Title>Büşra Gök</Card.Title>
@@ -44,7 +52,10 @@ className="text-center">
           </a>
         </Card.Footer>
       </Card>
-      <Card>
+      <Card
+      className="p-3"
+      style={{ width: '18rem' }}
+      >
         <Card.Img variant="top" src="zafer.png" />
         <Card.Body>
           <Card.Title>Zafer Çalışkan</Card.Title>
@@ -63,7 +74,10 @@ className="text-center">
           </a>
         </Card.Footer>
       </Card>
-      <Card>
+      <Card
+      className="p-3"
+      style={{ width: '18rem' }}
+      >
         <Card.Img variant="top" src="gizem.png" />
         <Card.Body>
           <Card.Title>Gizem Hamamcıoğlu</Card.Title>

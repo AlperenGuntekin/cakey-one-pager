@@ -109,7 +109,7 @@ function App() {
       <div className="row justify-content-center">
       <h1 className="row justify-content-center" >Ekibimiz</h1>
       <div className="col-9 d-sm-flex p-1">
-      <a name="ekip" id="ekip" class="intlink">&nbsp;</a>
+      <a name="ekip" id="ekip" className="intlink">&nbsp;</a>
       <Card
         id="ekip"
       />
